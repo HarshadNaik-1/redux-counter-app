@@ -9,7 +9,7 @@ body {
 
 .count {
   border-radius: 5px;
-  width: 300px;
+  width: 400px;
   padding: 20px;
   background-color: #fff;
   box-shadow: 5px 27px 20px 5px rgb(253, 253, 253, 0.15);
@@ -21,7 +21,7 @@ h1 {
 span {
   color: orange;
 }
-button {
+.btn button {
   margin-right: 10px;
   text-decoration: none;
   outline: none;
@@ -32,8 +32,7 @@ button {
   color: #000;
 }
 
-button:hover {
-  transform: scaleX(1);
+.btn button:hover {
   transition: ease-in 0.2s;
   box-shadow: 0 27px 20px 5px rgba(0, 0, 0, 0.12);
 }
